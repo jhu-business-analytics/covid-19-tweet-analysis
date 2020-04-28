@@ -95,6 +95,15 @@ The `nltk` package includes lists of stop words for several languages, so we won
 stop_words=set(stopwords.words("english"))
 ```
 
+{% hint style="info" %}
+You may need to download `stopwords` to access the stop words data. To do this, run the following code before you define the `stop_words` list: 
+
+```text
+# download stop words
+nltk.download('stopwords')
+```
+{% endhint %}
+
 Here, we define a list \(`stop_words =` \) as a set \(`set()`\) of the predefined list of english \(`("english")`\) stop words from the `stopwords` library \(`stopwords.words()`\). A `set` is similar to a `list` but the items are unordered and they can't be repeated within the set \(for example, a list can contain the same word or number several times, but a set can only contain unique values\).
 
 If we run stop\_words, we can see the entire set of the stop words that we will later remove from our Tweet text: 

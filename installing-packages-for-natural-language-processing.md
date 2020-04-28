@@ -52,6 +52,14 @@ df_tweets_march4 = pd.read_csv("coronavirus-tweet-id-2020-03-04-16.csv")
 df_tweets_april1 = pd.read_csv("coronavirus-tweet-id-2020-04-01-16.csv")
 ```
 
+{% hint style="info" %}
+If you are using Google Colaboratory, you can upload your files directly to Google Colab and use the same code to import the data. 
+
+Click on the file link on the left menu, then click on the Upload button to upload your hydrated Twitter data sets, shown in the image below
+{% endhint %}
+
+![How to upload data files directly to Colab.](.gitbook/assets/upload-data-on-colab.png)
+
 Which gives us data frames that look like this: 
 
 ![](.gitbook/assets/original-df-preview-march.png)
