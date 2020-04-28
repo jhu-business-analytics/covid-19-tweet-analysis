@@ -37,6 +37,10 @@ pillow 7.0.0
 matplotlib 3.1.3
 ```
 
+{% hint style="info" %}
+Note that these are only the package versions required for your virtual environment and shouldn't be copied and pasted into your notebook. The packages/libraries to download in your notebook are listed and explained [here](https://melanieshimano.gitbook.io/twitter-text-analysis-with-python/installing-packages-for-natural-language-processing). 
+{% endhint %}
+
 ## Data Answer
 
 The steps for our analysis are available in [this GitBook tutorial](https://melanieshimano.gitbook.io/twitter-text-analysis-with-python/), and you can use [this pre-commented starter notebook](https://github.com/jhu-business-analytics/covid-19-tweet-analysis/blob/master/2020-04-23-tweet-analysis-covid19-gitbookSTARTER-melanieshimano.ipynb) or [this Google Colab notebook](https://drive.google.com/file/d/1wWyZlojXPV91FeYbrhLoEHv0SvkG6Oly/view?usp=sharing) to follow along with the tutorial, or copy and paste the code from the codeblocks \(dark blue text boxes\) in the tutorial to create these and other word cloud data visualizations:
