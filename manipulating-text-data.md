@@ -34,6 +34,14 @@ To do this we write:
 df_en_march4["tokenized_text"] = df_en_march4["lcase_text"].apply(word_tokenize)
 ```
 
+{% hint style="info" %}
+You may need to download `punkt` before you can use the tokenize function. To do this, run this code before you create the `tokenized_text` column: 
+
+```text
+nltk.download('punkt')
+```
+{% endhint %}
+
 Here, we define a new column in our data frame \(`df_en_march4["tokenized_text"] =`\), that contains the values in the Tweet text column in our data frame \(`df_en_march4["lcase_text"]`\) where we've applied \(`.apply()`\) the word\_token function from the ntlk package \(`word_token`\) to tokenize the values in each row of the text column. 
 
 To simplify our dataframe and only look at the Tweet text and our edited values that we will create, we'll also filter our dataframe to only include the Tweet ID \(so that we can match this data back to our original dataframe, if needed\), the Tweet text, and the tokenized Tweet text: 
