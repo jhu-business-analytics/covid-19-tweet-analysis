@@ -37,7 +37,7 @@ matplotlib 3.1.3
 ## Data Answer
 The steps for our analysis are available in [this GitBook tutorial](https://melanieshimano.gitbook.io/twitter-text-analysis-with-python/), and you can use [this pre-commented starter notebook to follow along with the tutorial, or copy and paste the code from the codeblocks (dark blue text boxes) in the tutorial to create these and other word cloud data visualizations:
 
-![alt text]()
+![alt text](https://github.com/jhu-business-analytics/covid-19-tweet-analysis/blob/master/march4_april1_covid19_wordcloud.png)
 
 ## Business Answer
 How does the Tweet language differ between March 4, 2020 and April 1, 2020, and what does this tell us about how people might think about the pandemic, what they might be concerned about, or what the state of the world is like? Since so much new information about COVID-19 is released every day, what other date ranges might be better to compare? How might organizations use this Twitter information in their daily operations or in communication with their employees or customers?
