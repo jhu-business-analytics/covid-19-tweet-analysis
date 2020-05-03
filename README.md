@@ -1,7 +1,3 @@
----
-description: Text Analysis Overview
----
-
 # Analyzing COVID-19 Related Tweets
 
 So far we've focused on Python numerical analyses to gain insights into how the COVID-19 virus might negatively impact certain US counties and how the pandemic has spread across the US. This is largely because the analyses that we conduct and statistical models that we build depend on numbers, however, much of the world around us operates in non-numerical language. It's useful for organizations to analyze textual data so that they can better understand consumers' opinions and feedback, trending topics, or common reactions to an event. Social media websites, such as Twitter, also provide large amounts of individualized, textual data that can help us derive valuable insights from different communities or on different topics and check the pulse of different events, topics, or points in time. While we need to comply with the terms and user agreements in each social media \(or any website\) platform, we can use most of this data for our own analysis once we format this in a usable structure.
@@ -50,6 +46,8 @@ Note that these are only the package versions required for your virtual environm
 The steps for our analysis are available in [this GitBook tutorial](https://melanieshimano.gitbook.io/twitter-text-analysis-with-python/), and you can use [this pre-commented starter notebook](https://github.com/jhu-business-analytics/covid-19-tweet-analysis/blob/master/2020-04-23-tweet-analysis-covid19-gitbookSTARTER-melanieshimano.ipynb) or [this Google Colab notebook](https://drive.google.com/file/d/1wWyZlojXPV91FeYbrhLoEHv0SvkG6Oly/view?usp=sharing) to follow along with the tutorial, or copy and paste the code from the codeblocks \(dark blue text boxes\) in the tutorial to create these and other word cloud data visualizations:
 
 ![](.gitbook/assets/screenshot-2020-04-27-22.19.21.png)
+
+The notebook with code from the tutorial is available [here](https://github.com/jhu-business-analytics/covid-19-tweet-analysis/blob/master/2020-04-23-tweet-analysis-covid19-melanieshimano.ipynb).
 
 ## Business Answer
 
